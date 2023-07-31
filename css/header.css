@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+.header {
+  background-color: #fff8f3;
+  font-family: Comfortaa;
+}
+.container {
+  max-width: 1160px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 0 auto;
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__item {
+  padding-right: 20px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.header__call {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  position: relative;
+}
+.header__call::before {
+  content: "";
+  position: absolute;
+  background-image: url(../img/phone.svg);
+  width: 20px;
+  height: 20px;
+  left: -23px;
+  top: -5px;
+}
