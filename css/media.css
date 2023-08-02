@@ -101,4 +101,47 @@
   .footer__item {
     font-size: 14px;
   }
+  .header__img-l {
+    width: 309px;
+    left: 167px;
+  }
+  .top__content {
+    width: 180px;
+  }
+  .top__title {
+    font-size: 15px;
+    margin-bottom: 15px;
+  }
+  .top__text {
+    font-size: 8px;
+    margin-bottom: 15px;
+  }
+  .header__buy {
+    font-size: 10px;
+    padding: 14px 41px;
+    width: 100px;
+    height: 35px;
+  }
+  .top {
+    padding: 30px 0 50px;
+  }
+}
+@media (max-width: 360px) {
+  .header__img-l {
+    width: 185px;
+  }
+  .header__img {
+    left: auto;
+    right: 0;
+  }
+  .top__content {
+    width: 200px;
+    padding: 20px 0 0;
+  }
+  .top__title {
+    font-size: 18px;
+  }
+  .top__text {
+    font-size: 10px;
+  }
 }
