@@ -1,0 +1,59 @@
+.main {
+  background-color: #fff8f3;
+  margin: 0;
+  border: 1px #fff8f3 solid;
+  overflow-x: clip;
+}
+.top {
+  padding-bottom: 150px;
+  padding-top: 40px;
+}
+.top__inner {
+  position: relative;
+}
+.top__title {
+  font-family: Yeseva One;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: black;
+  width: 370px;
+  margin-bottom: 15px;
+}
+.top__text {
+  font-family: Comfortaa;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: black;
+  width: 370px;
+  margin-bottom: 48px;
+}
+.header__buy {
+  font-family: Comfortaa;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  display: flex;
+  width: 150px;
+  height: 55px;
+  padding: 18px 54px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  background-color: #ffbd59;
+  border: none;
+  cursor: pointer;
+}
+.top__content {
+  padding: 150px 0 250px;
+}
+.header__img {
+  position: absolute;
+  top: 0;
+  left: 240px;
+}
