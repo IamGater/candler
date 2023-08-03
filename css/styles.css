@@ -1,7 +1,7 @@
-@import url("/css/normalize.css");
-@import url("/css/default.css");
-@import url("/css/header.css");
-@import url("/css/top.css");
-@import url("/css/footer.css");
-@import url("/css/about.css");
-@import url("/css/media.css");
+@import url("./normalize.css");
+@import url("./default.css");
+@import url("./header.css");
+@import url("./top.css");
+@import url("./footer.css");
+@import url("./about.css");
+@import url("./media.css");
