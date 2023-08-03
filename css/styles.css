@@ -1,4 +1,7 @@
+@import url("/css/normalize.css");
+@import url("/css/default.css");
 @import url("/css/header.css");
 @import url("/css/top.css");
 @import url("/css/footer.css");
+@import url("/css/about.css");
 @import url("/css/media.css");

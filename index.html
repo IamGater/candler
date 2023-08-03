@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>candler</title>
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="/css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -32,15 +32,31 @@
           <span></span>
           <span></span>
         </button>
-        <div class="header__list">
-          <span class="header__item">Про нас</span>
-          <span class="header__item">Каталог</span>
-          <span class="header__item">Команда</span>
-          <span class="header__item">Відгуки</span>
-          <span class="header__item">Курси</span>
-          <span class="header__item">Контакти</span>
-        </div>
-        <span class="header__call">+45 65 78 98 76</span>
+        <ul class="header__list">
+          <li class="header__item">
+            <a href="#" class="header__link">Про нас</a>
+          </li>
+          <li class="header__item">
+            <a href="#" class="header__link">Каталог</a>
+          </li>
+
+          <li class="header__item">
+            <a href="#" class="header__item">Команда</a>
+          </li>
+
+          <li class="header__item">
+            <a href="#" class="header__item">Відгуки</a>
+          </li>
+
+          <li class="header__item">
+            <a href="#" class="header__item">Курси</a>
+          </li>
+
+          <li class="header__item">
+            <a href="#" class="header__item">Контакти</a>
+          </li>
+        </ul>
+        <a href="tel:+4565789876" class="header__call">+45 65 78 98 76</a>
       </div>
     </header>
     <main class="main">
@@ -62,6 +78,37 @@
         </div>
       </section>
     </main>
+    <section class="about">
+      <div class="container about__inner">
+        <div class="about__content">
+          <h2 class="about__title">Про нас</h2>
+          <p class="about__text">
+            Богдан творець бренду який завжди зацікавлений у виготовленні
+            різноманітних речей вдома. Він регулярно експериментував з різними
+            матеріалами та інструментами, спробувавши свої сили у багатьох
+            галузях, включаючи виготовлення свічок
+          </p>
+          <p class="about__text">
+            Ссоєвий віск виготовляють із соєвих бобів, що зрощуються в Данії, і
+            цей вид воску є екологічно чистим та безпечним для здоров'я.
+          </p>
+        </div>
+        <ul class="about__list">
+          <li class="about__item">
+            <img src="img/about-1.jpg" alt="" class="about__img" />
+            <p class="about__item-text">Насолоджуйтеся моментом</p>
+          </li>
+          <li class="about__item">
+            <img src="img/about-2.png" alt="" class="about__img" />
+            <p class="about__item-text">Створіть улюблену атмосферу</p>
+          </li>
+          <li class="about__item">
+            <img src="img/about-3.jpg" alt="" class="about__img" />
+            <p class="about__item-text">Виготовлені з любов'ю</p>
+          </li>
+        </ul>
+      </div>
+    </section>
     <section class="footer">
       <div class="container footer__container">
         <a href="#" class="logo">

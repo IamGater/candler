@@ -1,0 +1,38 @@
+.about {
+  background-color: #a5978e;
+  padding: 50px 0 60px;
+}
+.about__title {
+  font-family: Yeseva One;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #fafafa;
+}
+.about__text {
+  font-family: Comfortaa;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #fafafa;
+  width: 370px;
+}
+.about__item-text {
+  font-family: Comfortaa;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #fafafa;
+}
+.about__inner {
+  display: flex;
+  align-items: center;
+}
+.about__list {
+  display: flex;
+  align-items: center;
+  gap: 0 20px;
+}
