@@ -1,0 +1,71 @@
+.products {
+  background-color: #fff8f3;
+  padding-top: 150px;
+  overflow-x: clip;
+}
+.products__inner {
+  display: grid;
+  grid-template-columns: 370px auto;
+  gap: 70px;
+}
+.products__content-inner {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.products__info {
+  flex-basis: 370px;
+}
+.products__title {
+  font-family: Yeseva One;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.products__text {
+  font-family: Comfortaa;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  min-width: 372px;
+}
+.product__item-price {
+  font-family: Yeseva One;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: black;
+  margin-top: 8px;
+  margin-bottom: 12px;
+}
+.product__item-title {
+  font-family: Yeseva One;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 12px;
+  margin-bottom: 16px;
+}
+.product__item-text {
+  font-family: Comfortaa;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 27px;
+}
+.products__item {
+  width: 290px;
+  text-align: center;
+}
+.products__buy {
+  font-family: Comfortaa;
+  font-size: 14px;
+  width: 150px;
+  padding: 18px 20px;
+  background-color: #ffbd59;
+  margin-bottom: 50px;
+}
