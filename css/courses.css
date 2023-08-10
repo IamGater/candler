@@ -4,6 +4,7 @@
 }
 .courses__item-img {
   position: relative;
+  margin-bottom: 30px;
 }
 .courses__title-img {
   color: #fff;
@@ -42,5 +43,5 @@
   padding: 19px 10px;
   position: absolute;
   right: -3px;
-  bottom: -2px;
+  bottom: -13px;
 }

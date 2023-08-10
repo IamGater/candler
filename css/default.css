@@ -41,3 +41,8 @@ button {
   position: fixed;
   transform: scale(0);
 }
+
+p {
+  margin: 0;
+  padding: 0;
+}
