@@ -3,19 +3,19 @@
   padding-top: 150px;
   overflow-x: clip;
 }
-.products__inner {
+.section__inner {
   display: grid;
   grid-template-columns: 370px auto;
   gap: 70px;
 }
-.products__content-inner {
+.section__descr {
   display: grid;
   grid-template-columns: auto auto;
 }
 .products__info {
   flex-basis: 370px;
 }
-.products__title {
+.section__title {
   font-family: Yeseva One;
   font-size: 40px;
   font-style: normal;

@@ -1,0 +1,46 @@
+.courses {
+  background-color: #fff8f3;
+  border: 1px #fff8f3 solid;
+}
+.courses__item-img {
+  position: relative;
+}
+.courses__title-img {
+  color: #fff;
+  font-family: Yeseva One;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  background-color: #bea495;
+  padding: 15px;
+  position: absolute;
+  left: 10px;
+  top: 45%;
+}
+.courses__time {
+  color: #fff;
+  font-family: Yeseva One;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  background-color: #bea495;
+  padding: 7px 10px;
+  position: absolute;
+  left: 10px;
+  top: 60%;
+}
+.courses__price {
+  color: #fff;
+  font-family: Yeseva One;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  background-color: #bea495;
+  padding: 19px 10px;
+  position: absolute;
+  right: -3px;
+  bottom: -2px;
+}
