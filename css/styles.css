@@ -1,10 +1,21 @@
 @import url("./normalize.css");
+
 @import url("./default.css");
+
 @import url("./header.css");
+
 @import url("./top.css");
+
 @import url("./about.css");
+
 @import url("./products.css");
+
 @import url("./steps.css");
+
 @import url("./courses.css");
+
+@import url("./team.css");
+
 @import url("./footer.css");
+
 @import url("./media.css");

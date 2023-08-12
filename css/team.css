@@ -1,0 +1,33 @@
+.team {
+  background-color: #a5978e;
+  padding: 80px 0 60px;
+  color: #fff;
+  overflow-x: clip;
+  margin-bottom: 150px;
+}
+.team__item {
+  position: relative;
+}
+.team__item-box {
+  position: relative;
+  bottom: 72px;
+  right: -185px;
+  background-color: #7b6152;
+  padding: 10px 14px;
+  width: 165px;
+  margin: 0;
+}
+.team__item-name {
+  font-family: Yeseva One;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.team__item-descr {
+  font-family: Comfortaa;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
