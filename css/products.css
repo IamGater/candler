@@ -28,7 +28,6 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  min-width: 372px;
 }
 .product__item-price {
   font-family: Yeseva One;
@@ -58,8 +57,13 @@
   margin-bottom: 27px;
 }
 .products__item {
-  width: 290px;
+  max-width: 290px;
+  width: 100%;
   text-align: center;
+}
+.products__item-img {
+  max-width: 290px;
+  width: 100%;
 }
 .products__buy {
   font-family: Comfortaa;

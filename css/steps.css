@@ -11,7 +11,6 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  width: 372px;
   margin: 0;
 }
 .steps__text {
@@ -20,7 +19,6 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  width: 391px;
 }
 .steps__list {
   gap: 70px 50px;
@@ -44,6 +42,9 @@
   gap: 40px;
   list-style-type: none;
   position: relative;
+}
+.steps__item-img {
+  object-fit: contain;
 }
 .steps__item-text {
   font-family: Comfortaa;

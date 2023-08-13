@@ -1,0 +1,49 @@
+.feedback {
+  background-color: #fff8f3;
+  padding-top: 150px;
+  padding-bottom: 100px;
+}
+.feedback__slider {
+  width: 760px;
+  overflow: hidden;
+}
+.feedback__item {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 20px;
+  align-items: center;
+}
+.feedback__item-social {
+  margin-bottom: 12px;
+}
+.feedback__item-name {
+  font-family: Yeseva One;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 15px;
+}
+.feedback__item-text {
+  font-family: Comfortaa;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 15px;
+}
+.feedback__buy {
+  position: absolute;
+  bottom: 10px;
+  right: 0;
+  padding: 20px 35px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: #ffbd59;
+  font-family: Comfortaa;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}

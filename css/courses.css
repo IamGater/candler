@@ -1,6 +1,7 @@
 .courses {
   background-color: #fff8f3;
   border: 1px #fff8f3 solid;
+  overflow-x: clip;
 }
 .courses__item-img {
   position: relative;
@@ -16,7 +17,7 @@
   background-color: #bea495;
   padding: 15px;
   position: absolute;
-  left: 10px;
+  left: -1px;
   top: 45%;
 }
 .courses__time {
@@ -29,7 +30,7 @@
   background-color: #bea495;
   padding: 7px 10px;
   position: absolute;
-  left: 10px;
+  left: -1px;
   top: 60%;
 }
 .courses__price {
@@ -42,6 +43,6 @@
   background-color: #bea495;
   padding: 19px 10px;
   position: absolute;
-  right: -3px;
+  right: -25px;
   bottom: -13px;
 }
