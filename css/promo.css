@@ -1,0 +1,26 @@
+.promo {
+  background-image: url(../img/promo-bg.png);
+  padding: 140px 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.promo__inner {
+  display: flex;
+  align-items: center;
+}
+.promo__text {
+  font-family: Yeseva One;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #fff;
+  padding-left: 200px;
+  margin-right: 110px;
+}
+.promo__linck {
+  padding: 12px 25px;
+  background-color: #ffbd59;
+  font-family: Comfortaa;
+}

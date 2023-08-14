@@ -1,0 +1,48 @@
+.contacts {
+  padding: 150px 0 50px;
+  background-color: #fff8f3;
+}
+.contacts__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+.form {
+  background-color: white;
+  width: 664px;
+  padding: 75px 42px 67px;
+}
+.form__title {
+  font-family: Yeseva One;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 60px;
+}
+.form__input {
+  background-color: white;
+  border: none;
+  border-bottom: 1px solid black;
+  width: 100%;
+  display: block;
+  margin-bottom: 15px;
+  padding: 7px 10px;
+  color: black;
+}
+.form__input::placeholder {
+  color: #b3b3b3;
+  font-family: Comfortaa;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.form__btn {
+  background-color: #ffbd59;
+  font-family: Comfortaa;
+  font-size: 14px;
+  margin-top: 36px;
+  padding: 17px 30px;
+}
