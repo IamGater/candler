@@ -1,4 +1,47 @@
 .questions {
   background-color: #fff8f3;
   border: 1px solid #fff8f3;
+  padding-bottom: 150px;
+}
+.acordeon {
+}
+.acordeon__item {
+  background-color: white;
+  margin-bottom: 10px;
+}
+.acordeon__text {
+  opacity: 9;
+  max-height: 0;
+  font-family: Comfortaa;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-top: 20px 40px;
+}
+.acordeon__text,
+.acordeon__text-active {
+  opacity: 1;
+}
+.acordeon__title {
+  font-family: Yeseva One;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: block;
+  background-color: transparent;
+  padding: 16px 50px 16px 13px;
+  width: 100%;
+  text-align: left;
+  position: relative;
+}
+.acordeon__title::after {
+  content: "";
+  background-image: url(../img/arrow.svg);
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  right: 26px;
+  top: 17px;
 }
