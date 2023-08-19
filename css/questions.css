@@ -3,14 +3,13 @@
   border: 1px solid #fff8f3;
   padding-bottom: 150px;
 }
-.acordeon {
-}
+
 .acordeon__item {
   background-color: white;
   margin-bottom: 10px;
 }
 .acordeon__text {
-  opacity: 9;
+  opacity: 0;
   max-height: 0;
   font-family: Comfortaa;
   font-size: 14px;
@@ -19,8 +18,8 @@
   line-height: normal;
   padding-top: 20px 40px;
 }
-.acordeon__text,
-.acordeon__text-active {
+
+.acordeon__text-visible {
   opacity: 1;
 }
 .acordeon__title {
