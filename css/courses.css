@@ -46,3 +46,9 @@
   right: -25px;
   bottom: -13px;
 }
+.courses__item {
+  width: 269px;
+}
+.courses__content {
+  gap: 100px;
+}
