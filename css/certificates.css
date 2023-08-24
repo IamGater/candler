@@ -3,7 +3,7 @@
   border: 1px solid #fff8f3;
   padding-bottom: 100px;
 }
-.certificates__slider {
+.certificates-container {
   width: 1135px;
   overflow: hidden;
 }

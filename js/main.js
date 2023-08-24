@@ -9,22 +9,19 @@ burger.addEventListener('click', () => {
 const swiperOne = new Swiper('.feedback__slider', {
    autoplay: {
    delay: 3000,
- },
+  },
+   spaceBetween: 20,
   loop: true,
 
   // pagination: {
   //   el: '.swiper-pagination',
   // },
 });
-const swiperTwo = new Swiper('.certificates__slider', {
-  
+const swiperTwo = new Swiper('.certificates-container', {
   loop: true,
-  slidesPrewView: 3,
-   spaceBetween: 20,
-  
-  // pagination: {
-  //   el: '.swiper-pagination',
-  // },
+  slidesPerView: 3,
+  spaceBetween: 20,
+
 });
 
 const acordeon = document.querySelector('.acordeon');
