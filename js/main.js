@@ -16,14 +16,15 @@ const swiperOne = new Swiper('.feedback__slider', {
   //   el: '.swiper-pagination',
   // },
 });
-const swiperTwo = new Swiper('.certificate__slider', {
-  loop: true,
-  slidesPrewView: 2,
-  spaceBetween: 20,
+const swiperTwo = new Swiper('.certificates__slider', {
   
-  pagination: {
-    el: '.swiper-pagination',
-  },
+  loop: true,
+  slidesPrewView: 3,
+   spaceBetween: 20,
+  
+  // pagination: {
+  //   el: '.swiper-pagination',
+  // },
 });
 
 const acordeon = document.querySelector('.acordeon');

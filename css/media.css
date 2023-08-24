@@ -57,7 +57,7 @@
     width: 280px;
   }
   .certificates__slider {
-    width: 350px;
+    /* width: 350px; */
     margin-top: 50px;
   }
   .promo__text {
@@ -189,7 +189,7 @@
     width: 200px;
   }
   .certificates__slider {
-    width: 300px;
+    /* width: 300px; */
     margin-top: 25px;
   }
   .certificates__text {
@@ -355,7 +355,7 @@
     padding: 16px 5px;
   }
   .certificates__slider {
-    width: 250px;
+    /* width: 250px; */
     margin-top: 20px;
   }
   .promo__text {
@@ -453,7 +453,7 @@
     width: 285px;
   }
   .certificates__slider {
-    width: 330px;
+    /* width: 330px; */
     margin-top: 20px;
   }
   .promo {
@@ -612,7 +612,7 @@
     width: 200px;
   }
   .certificates__slider {
-    width: 255px;
+    /* width: 255px; */
     margin-top: 20px;
   }
   .promo__text {
