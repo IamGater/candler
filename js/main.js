@@ -19,9 +19,33 @@ const swiperOne = new Swiper('.feedback__slider', {
 });
 const swiperTwo = new Swiper('.certificates-container', {
   loop: true,
+  autoplay: {
+   delay: 3000,
+  },
   slidesPerView: 3,
   spaceBetween: 20,
 
+  breakpoints: {
+    
+    1400: {
+      slidesPerView: 3,
+      
+    },
+    
+    500: {
+      slidesPerView: 2,
+      
+    },
+
+    450: {
+      slidesPerView: 1,
+      
+    },
+
+
+    
+    
+  }
 });
 
 const acordeon = document.querySelector('.acordeon');

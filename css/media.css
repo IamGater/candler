@@ -110,9 +110,7 @@
   .products__text {
     font-size: 10px;
   }
-  .products__info {
-    width: 200px;
-  }
+
   .section__inner {
     grid-template-columns: 250px auto;
   }
@@ -185,13 +183,13 @@
   .feedback__text {
     width: 200px;
   }
-  .certificate__img {
+  .cert-img {
     width: 200px;
   }
-  .certificates__slider {
-    /* width: 300px; */
+  /* .certificates-container {
+    width: 600px;
     margin-top: 25px;
-  }
+  } */
   .certificates__text {
     max-width: 200px;
   }
@@ -355,7 +353,7 @@
     padding: 16px 5px;
   }
   .certificates__slider {
-    /* width: 250px; */
+    width: 250px;
     margin-top: 20px;
   }
   .promo__text {
@@ -384,6 +382,17 @@
   .section__inner {
     grid-template-columns: 170px auto;
   }
+  .courses__inner {
+    gap: 30px;
+  }
+  .team__inner,
+  .feedback__inner,
+  .certificates__inner {
+    gap: 45px;
+  }
+  /* .certificates-container {
+    width: 400px;
+  } */
 }
 
 @media (max-width: 640px) {
@@ -474,6 +483,18 @@
   .team__content {
     gap: 30px 98px;
     margin-right: 80px;
+  }
+  .courses__content {
+    align-items: center;
+  }
+  .courses__info {
+    margin-bottom: 30px;
+  }
+  .steps__descr {
+    margin-bottom: 30px;
+  }
+  .steps__text {
+    padding: 0;
   }
 }
 @media (max-width: 500px) {
@@ -656,6 +677,9 @@
   .form__input {
     font-size: 8px;
   }
+  .steps__descr {
+    margin-bottom: 30px;
+  }
 }
 @media (max-width: 400px) {
   .courses__item {
@@ -672,7 +696,7 @@
     margin-top: 25px;
   }
   .team__content {
-    grid-template-columns: auto;
+    grid-template-columns: 210px;
   }
   .team__img {
     width: 204px;
